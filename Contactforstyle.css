@@ -1,0 +1,17 @@
+.main{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ02iDo6nUEWRErBMuLU82hXj3qgNtveGE-ygU8UoBv&s);
+        text-align: center;
+        padding: 300px;
+}
+label{
+   font-size : 50px;
+    
+}
+input{
+    height: 50px;
+    width: 500px;
+}
+.btn3{
+    padding: 50px;
+    height: 30px;
+}

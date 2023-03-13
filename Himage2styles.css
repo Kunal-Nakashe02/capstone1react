@@ -1,0 +1,35 @@
+.img1{
+    background-color: black;
+    text-align: center;
+    position: relative;
+    height: 1400px;
+     width: 100%;
+     display: flex;
+    background: url(https://plus.unsplash.com/premium_photo-1672243969437-2688d2100a1c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60);
+}
+
+.card1{
+    height: 500px;
+    width: 500px;
+    display: block;
+    border: 3px solid rgb(209, 87, 160);
+    border-radius: 30px;
+    position: relative;
+    top: 600px;
+    left: -200PX;
+    margin: 20px;
+    background-color: rgb(78, 185, 115);
+    
+}
+.head1{
+position: relative;
+left: 600px;
+top: 300px;
+font-size: 30PX;
+color: gold;
+}
+img{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}

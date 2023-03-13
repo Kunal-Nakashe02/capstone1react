@@ -1,0 +1,77 @@
+/* navbar  */
+
+body{
+    z-index: 9;
+}
+.header{
+    display: inline-flex;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+    position:fixed ;
+    z-index: 9;
+}
+.links{
+    margin-left: 80px;
+    text-decoration: none;
+    font-size: 25px;
+    display: inline-flex;
+}
+.link1{
+    display: inline-flex;
+    color: white;
+}
+.kunal{
+    margin-right: 400px;
+    font-size: 30px;
+    margin-left: 2px;
+    color: white;
+}
+.link1:hover{
+    color: blue;
+}
+.kunal:hover{
+    color: red;
+}
+/* hamburger */
+.hamburger{
+    display: none;
+}
+
+
+
+@media screen and (max-width:900px) {
+    .header{
+        display: block;
+        padding: 1px;
+        font-size: 2px;
+    }
+    .kns{
+        display: flex;
+        margin-left: 450px;
+    }
+    
+    .link1{
+        margin-top: 10px;
+        margin-left: -50px;
+        text-decoration: none;
+        font-size: medium;
+        
+    }
+    .links{
+        margin-top: 30px;
+    }
+    .kunal{
+        margin: 10px -50px;
+    }
+    .hamburger{
+        display: initial;
+        position: relative;
+        left: 300px;
+        bottom: 10px;
+    }
+    .kns:active{
+        margin-left: -200px;
+        transition: 0.4s;
+    }
+}

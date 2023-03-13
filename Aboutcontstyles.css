@@ -1,0 +1,17 @@
+
+.about1{
+    background: url(https://venturebeat.com/wp-content/uploads/2021/05/GettyImages-1291886933-e1624308433688.jpg?fit=2309%2C1154&strip=all);
+    height: 1200px;
+    width:100%;
+}
+
+.left1{
+    position: relative;
+    top: 100px;
+    width: 600px;
+    color: rgb(242, 141, 18);
+    position: relative;
+    left: 500px;
+    top: 300px;
+    font-size: 30px;
+}
